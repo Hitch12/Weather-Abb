@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --mainColor: #1e202b;
+  --scendColor: #009ad8;
+}
+
+/* Start Nav */
+nav {
+  background: #1e202b;
+}
+.navbar-brand h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.navbar-brand p {
+  font-size: 8px;
+}
+/* End Nav */
+
+/* Start Home */
+#home {
+  background-image: url(../imges/asset\ 4.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  background-color: var(--mainColor);
+  height: 100vh;
+}
+#home input {
+  background: var(--mainColor);
+  border: none;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.day-info {
+  color: #bfc1c8;
+  border-radius: 8px 0px 0px 8px;
+  overflow: hidden;
+  background: #393c4a;
+}
+.day-info .head {
+  padding: 5px;
+  background: #323544;
+}
+.head p,
+.body p {
+  padding: 0;
+  margin: 0;
+}
+.day-info .body img {
+  width: 100px;
+  margin-left: 15px;
+}
+.C {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 700;
+}
+.next-day-info {
+  color: #bfc1c8;
+  background: #272b38;
+}
+.next-day-info .head {
+  background: #20242f;
+  padding: 5px;
+}
+.end-day-info {
+  color: #bfc1c8;
+  border-radius: 0px 8px 8px 0px;
+  overflow: hidden;
+  background: #393c4a;
+}
+.end-day-info .head {
+  padding: 5px;
+  background: #323544;
+}
+/* End Home */
+
+/* Start Footer */
+footer {
+  background: #2a2d3a;
+}
+#foot-input {
+  background: var(--mainColor);
+  border: none;
+  color: #fff;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+.foot-btn {
+  top: 0px;
+  right: 0px;
+  background: var(--scendColor);
+  margin: 5px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  color: #fff;
+}
+footer .icons{
+  display: flex;
+  gap: 5px;
+}
+footer .icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer .icons a:hover{
+  background: #009ad8;
+  color: #fff;
+}
+/* End Footer */
+
+
